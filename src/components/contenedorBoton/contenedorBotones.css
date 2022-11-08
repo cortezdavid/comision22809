@@ -1,0 +1,13 @@
+.containerbuttons{
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    .containerbuttons{
+        margin: 0 30px;
+    }
+}
